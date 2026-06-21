@@ -142,3 +142,60 @@
         }
 
         .comment-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .comment-user {
+            font-weight: bold;
+            margin-right: 5px;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reel-container">
+        <video class="reel-video" src="your_video_file.mp4" autoplay loop muted playsinline></video>
+        
+        <div class="overlay-gradient"></div>
+
+        <div class="actions-sidebar">
+            <div class="action-item heart">
+                <i class="fa-solid fa-heart"></i>
+                <span>1,234,567</span>
+            </div>
+            <div class="action-item">
+                <i class="fa-solid fa-comment"></i>
+                <span>45.6K</span>
+            </div>
+            <div class="action-item">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+
+        <div class="bottom-info">
+            <div class="user-info">
+                <div class="user-icon"></div>
+                <div class="username">dummy_project_account</div>
+            </div>
+            
+            <div class="caption-text">
+                ここに動画の説明文や企画のテキストが入ります。ハッシュタグなどもここに記述できます。テキストが長い場合は3行で省略されます。 #ダミーサイト #企画
+            </div>
+
+            <div class="comments-section">
+                <div class="comment-item">
+                    <span class="comment-user">user_a:</span>最高ですね！
+                </div>
+                <div class="comment-item">
+                    <span class="comment-user">user_b:</span>この動画好きすぎる
+                </div>
+                <div class="comment-item">
+                    <span class="comment-user">user_c:</span>いいね！
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
